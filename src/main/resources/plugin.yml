@@ -1,0 +1,7 @@
+name: PvpFlag
+version: 1.0
+main: me.windy41.pvpflag.PvpFlagPlugin
+commands:
+  flag:
+    description: Toggle PvP on or off with 24h cooldown.
+	permission: pvp.flag.toggle
