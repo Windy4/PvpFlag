@@ -3,7 +3,7 @@ plugins {
 }
 
 group = 'me.windy41'
-version = '2.0'
+version = '3.0'
 
 sourceCompatibility = '17'
 targetCompatibility = '17'
@@ -26,6 +26,6 @@ tasks.withType(JavaCompile) {
 
 jar {
     archiveBaseName.set('PvpFlag')
-    archiveVersion.set('2.0.0')
+    archiveVersion.set('3.0.0')
     destinationDirectory.set(file("${projectDir}/build/libs"))
 }

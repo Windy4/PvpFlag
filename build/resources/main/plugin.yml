@@ -1,7 +1,13 @@
 name: PvpFlag
-version: 1.0
+version: 3.0
 main: me.windy41.pvpflag.PvpFlagPlugin
+api-version: 1.21
+Author: Windy41
+description: Toggle PvP on/off with 24h cooldown
+depend: [DiscordSRV]
 commands:
-  flag:
-    description: Toggle PvP on or off with 24h cooldown.
-	permission: pvp.flag.toggle
+  egghunt:
+    description: "Toggle PvP on/off with 24h cooldown"
+    usage: "/flag"
+    permission: pvp.flag.toggle
+    permission-message: "Toggle PvP on/off with 24h cooldown"
