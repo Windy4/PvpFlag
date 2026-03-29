@@ -9,7 +9,7 @@ A Minecraft plugin to enable or disable pvp between flagged and non flagged peop
 
 ## Usage
 
-/pvpflag <player>
+/pvpflag [player]
 
 ---
 
